@@ -1,0 +1,16 @@
+{
+    "name": "sb15/server-backup",
+    "description": "server backup",
+    "type": "library",       
+    "require": {
+        "php": ">=5.2.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend_": "src/"
+        }
+    },
+    "include-path": [
+        "src/"
+    ]    
+}
